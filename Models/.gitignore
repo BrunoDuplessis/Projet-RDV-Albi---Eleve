@@ -1,0 +1,63 @@
+# =========================
+# Python cache / compilés
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Environnements virtuels
+# =========================
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# Packaging / build
+# =========================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# =========================
+# Logs et fichiers temporaires
+# =========================
+*.log
+*.tmp
+*.swp
+*.swo
+*~
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Tests / coverage
+# =========================
+.coverage
+htmlcov/
+.pytest_cache/
+
+# =========================
+# Données lourdes (optionnel — décommente si besoin)
+# =========================
+# data/
+# datasets/
+# *.csv
+# *.h5
+# *.parquet
