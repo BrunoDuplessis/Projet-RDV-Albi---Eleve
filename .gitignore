@@ -1,0 +1,69 @@
+############################
+# Jupyter Notebook
+############################
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+############################
+# Python
+############################
+__pycache__/
+*.py[cod]
+*$py.class
+
+############################
+# Environnements virtuels
+############################
+venv/
+.venv/
+env/
+ENV/
+
+############################
+# Fichiers de configuration sensibles
+############################
+.env
+.env.*
+
+############################
+# Outputs, data temporaires
+############################
+data/
+outputs/
+results/
+*.csv
+*.tsv
+*.parquet
+*.h5
+*.hdf5
+
+############################
+# Logs
+############################
+*.log
+
+############################
+# IDE / éditeurs
+############################
+.vscode/
+.idea/
+
+############################
+# Système
+############################
+.DS_Store
+Thumbs.db
+
+############################
+# Cache de tests
+############################
+.pytest_cache/
+.coverage
+htmlcov/
+
+############################
+# Packaging
+############################
+build/
+dist/
+*.egg-info/
